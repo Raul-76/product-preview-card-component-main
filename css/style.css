@@ -18,6 +18,13 @@
 
 }
 
+html,
+body{
+    height: 100vh;
+}
+
+
+
 
 body{
     font-family: 'Fraunces', serif;
@@ -38,13 +45,12 @@ img {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
     background-color: var(--White);
-    border-radius: .5rem;
+ 
 }
 
-.image-product img{
-    border-radius: .5rem .5rem 0 0;
-}
+
 
 .infos-product{
     padding: .5rem 1.3rem 1.5rem;
@@ -141,6 +147,8 @@ img {
     .container{
         flex-direction: row;
         width: 37.5rem;
+        border-radius: .5rem;
+        height: initial;
     }
     .image-product, 
     .infos-product{
